@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Provide an interactive and user-friendly platform for Python developers to access tutorials, references, and best practices.">
+    <title>Python Documentation Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+            <header>Python Documentation</header>
+            <a class="nav-link" href="#introduction">Introduction
+                <ul>
+                    <li><a class="sub-topics"  href="#what_is_python">What is Python</a></li>
+                    <li><a class="sub-topics"  href="#history_of_python">History of Python</a></li>
+                    <li><a class="sub-topics"  href="#why_python">Why Python is Popular</a></li>
+                    <li><a class="sub-topics"  href="#features_of_python">Features of Python</a></li>
+                    <li><a  class="sub-topics" href="#real_world_python_examples">Python in the Real World</a></li>
+                    <li><a  class="sub-topics" href="#fact_about_python">Quick Facts About Python</a></li>
+                </ul>
+            </a>
+            <a class="nav-link" href="#installation">Installation
+                <ul>
+                    <li><a class="sub-topics" href="#check_python_installed_or_not">Check if Python is Already Installed</a></li>
+                    <li><a class="sub-topics" href="#download_python">Downlod Python</a></li>
+                    <li><a class="sub-topics" href="#install_python">Install Python on Your System</a></li>
+                    <li><a class="sub-topics" href="#install_pip">Install pip</a></li>
+                    <li><a class="sub-topics" href="#set_virtual_env">Set Up a Virtual Environment (Optional)</a></li>
+                    <li><a class="sub-topics" href="#install_ide"> Install an IDE or Code Editor</a></li>
+                    <li><a class="sub-topics" href="#test_installation">Test Your Installation</a></li>
+                    <li><a class="sub-topics" href="#common_installation_issues">Common Installation Issues</a></li>
+                </ul>
+            </a>
+            <a class="nav-link" href="#python_basics">Python Basics
+                <ul>
+                    <li><a href="#python_syntax" class="sub-topics">Python Syntax</a></li>
+                    <li><a href="#variable_and_data_types" class="sub-topics">Variable and data types</a></li>
+                    <li><a href="#basic_io" class="sub-topics">Basic Input and Output</a></li>
+                    <li><a href="#basic_data_types" class="sub-topics">Basic Data Types</a></li>
+                    <li><a href="#operators" class="sub-topics">Operators</a></li>
+                    <li><a href="#control_flow" class="sub-topics">Control Flow</a></li>
+                    <li><a href="#python_comments" class="sub-topics">Python Comments</a></li>
+                </ul>
+            </a>
+            <a class="nav-link" href="#intermediate_python_topics">Intermediate Python Topics
+                <ul>
+                    <li><a href="#functions" class="sub-topics">Functions</a></li>
+                    <li><a href="#object_oriented_programming" class="sub-topics">Object-Oriented Programming</a></li>
+                    <li><a href="#modules_and_libraries" class="sub-topics">Modules and Libraries</a></li>
+                </ul>
+            </a>
+            <a class="nav-link" href="#advanced_python_topics">Advanced Python Topics
+                <ul>
+                    <li><a href="#file_handling" class="sub-topics">File Handling</a></li>
+                    <li><a href="#exception_handling" class="sub-topics">Exception Handling</a></li>
+                    <li><a href="#decorators" class="sub-topics">Decorators</a></li>
+                    <li><a href="#generators" class="sub-topics">Generators</a></li>
+                    <li><a href="#context_managers" class="sub-topics">Context Managers</a></li>
+                    <li><a href="#metaclasses" class="sub-topics">Metaclasses</a></li>
+                    <li><a href="#coroutines_and_asyncio" class="sub-topics">Coroutines and Asyncio</a></li>
+                    <li><a href="#python_memory_management" class="sub-topics">Python Memory Management</a></li>
+                    <li><a href="#python_design_patterns" class="sub-topics">Python Design Patterns</a></li>
+                    <li><a href="#python_tips_and_tricks" class="sub-topics">Python Tips and Tricks</a></li>
+                </ul>
+            </a>
+            <a class="nav-link" href="#popular_libraries">Popular Libraries
+                <ul>
+                    <li><a href="#web_development" class="sub-topics">Web Development</a></li>
+                    <li><a href="#data_analysis" class="sub-topics">Data Analysis</a></li>
+                    <li><a href="#machine_learning" class="sub-topics">Machine Learning</a></li>
+                    <li><a href="#data_visualization" class="sub-topics">Data Visualization</a></li>
+                    <li><a href="#automation" class="sub-topics">Automation</a></li>
+                    <li><a href="#API_integration" class="sub-topics">API Integration</a></li>
+                    <li><a href="#Scientific_computing" class="sub-topics">Scientific Computing</a></li>
+                    <li><a href="#Game_evelopment" class="sub-topics">Game Development</a></li>
+                </ul>
+            </a>
+        </nav>
+    <main id="main-doc">
+        
+        <section class="main-section" id="introduction">
+            <header><h1>Introduction</h1></header>
+            <div class="sub-section" id="what_is_python">
+                <h2>What is Python?</h2>
+                <p class="indent">Python is a high-level, interpreted, and general-purpose programming language known for its simplicity and versatility. Designed to emphasize code readability, Python uses indentation to define blocks of code instead of traditional braces, making it more beginner-friendly.</p>
+                
+                <span class="titledoc">Tagline: </span><em class="description"> "Python: The programming language for everyone, from beginners to
+                    experts."</em>
+                    
+                <span class="titledoc">Key Features: </span>
+                <ul>
+                    <li>
+                        <p><span class="titledoc">Interpreted:</span><span class="description"> Python executes code line by line, making debugging easier.</span></p>
+                    </li>
+                    <li>
+                        <p><span class="titledoc">Dynamically Typed:</span><span class="description"> No need to declare variable types explicitly.</span></p>
+                    </li>
+                    <li>
+                        <p><span class="titledoc">Open Source:</span><span class="description"> Free to use and maintained by a large global community.</span></p>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="sub-section" id="history_of_python">
+                <h2>History of Python</h2>
+                <ul>
+                    <li>
+                        <p><span class="titledoc">Creation:</span> <span class="description">Python was created by Guido van Rossum and first released in 1991.</span></p>
+                    </li>
+                    <li>
+                        <p><span class="titledoc">Name Origin:</span> <span class="description">Named after the British comedy series "Monty Python's Flying Circus," reflecting the language’s emphasis on fun and creativity.</span></p>
+                    </li>
+                    <li>
+                        <span class="titledoc">Development Goals:</span>
+                        <ul>
+                            <li><span class="description">To make programming accessible to everyone.</span></li>
+                            <li><span class="description">To create a language that is both powerful and intuitive.</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sub-section" id="why_python">
+                <h2>Why Python is Popular</h2>
+                <p class="indent">Python is often referred to as the "Swiss Army Knife" of programming languages due to its versatility. Here's why developers love Python:</p>
+                <ol class="inner">
+                    <li>
+                        <h3>Ease of Learning and Use</h3>
+                        <ul>
+                            <li class="indent">Minimal syntax and natural language-like structure.</li>
+                            <li class="indent">Ideal for beginners who want to focus on logic without worrying about complex syntax.</li>   
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Wide Applicability</h3>
+                        <p class="indent">Python is used in a variety of domains:</p>
+                        <ul>
+                            <li>
+                                <p><span class="titledoc indent">Web Development:</span> <span class="description list">Frameworks like Django and Flask.</span></p>
+                            </li>
+                            <li>
+                                <p><span class="titledoc indent">Data Science & Machine Learning:</span> <span class="description list">Libraries like Pandas, NumPy, Scikit-learn.</span></p>
+                            </li>
+                            <li>
+                                <p><span class="titledoc indent">Scripting & Automation:</span> <span class="description list">Automating mundane tasks using tools like PyAutoGUI.</span></p>
+                            </li>
+                            <li>
+                                <p><span class="titledoc indent">Game Development:</span> <span class="description list">Frameworks like Pygame.</span></p>
+                            </li>
+                            <li>
+                                <p><span class="titledoc indent">Scientific Computing:</span> <span class="description list">Libraries like SciPy.</span></p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Large Ecosystem</h3>
+                        <ul>
+                            <li class="indent">Thousands of libraries and frameworks available for almost any task.</li>
+                            <li class="indent">Seamless integration with other languages and technologies.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Active Community</h3>
+                        <ul>
+                            <li class="indent">One of the most supportive and active programming communities worldwide.</li>
+                            <li class="indent">Extensive documentation, tutorials, and forums to help learners at every level.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="sub-section" id="features_of_python">
+                <h2>Features of Python</h2>
+                <p class="indent">The core features that make Python unique</p>
+                <ul>
+                    <li>
+                        <p class="indent"><span class="titledoc">Simple Syntax:</span> <code class="sample indent">print("Hello, World!")
+                        </code></p></li>
+                    <li>
+                        <p class="indent"><span class="titledoc">Cross-Platform:</span> <span class="description">Works on Windows, macOS, Linux, and more.</span></p></li>
+                    <li>
+                        <p class="indent"><span class="titledoc">Extensive Libraries:</span><span class="description"> From machine learning (TensorFlow) to web development (Django).</span></p></li>
+                    <li>
+                        <p class="indent"><span class="titledoc">Scalability:</span> <span class="description">Suitable for both small scripts and large-scale applications.</span></p></li>
+                    <li>
+                        <p class="indent"><span class="titledoc">Interpreted:</span><span class="description"> No need for compilation, enabling quick testing and debugging.</span></p></li>
+                    <li>
+                        <p class="indent"><span class="titledoc">Object-Oriented:</span><span class="description"> Supports OOP principles like inheritance and encapsulation.</span></p></li>
+                    <li>
+                        <p class="indent"><span class="titledoc">Community-Driven Development:</span><span class="description"> Frequent updates and enhancements.</span></p></li>
+                </ul>
+            </div>
+            <div class="sub-section" id="real_world_python_examples">
+                <h2>Python in the Real World</h2>
+                <p class="indent">Python is used by top companies and organizations worldwide:</p>
+                <ul>
+                    <li class="indent innerunorder">Google (for backend development).</li>
+                    <li class="indent innerunorder">Netflix (for recommendation systems).</li>
+                    <li class="indent innerunorder">Instagram (for scalability).</li>
+                    <li class="indent innerunorder">& many more...</li>
+                </ul>
+                <p class="indent titledoc">Innovative Applications:</p>
+                <ul>
+                    <li><p><span class="list titledoc">Artificial Intelligence (AI):</span><span class="newdescription"> Building intelligent systems.</span></p></li>
+                    <li><p><span class="list titledoc">Blockchain Development:</span><span class="newdescription"> Prototyping decentralized apps.
+                    </span></p></li>
+                    <li><p><span class="list titledoc">Web Scraping:</span><span class="newdescription"> Gathering data from websites.</span></p></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="sub-section" id="fact_about_python">
+                <h2>Quick Facts About Python</h2>
+                <table>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Developer</td>
+                        <td>Guido van Rossum</td>
+                    </tr>
+                    <tr>
+                        <td>First Released</td>
+                        <td>February 20, 1991</td>
+                    </tr>
+                    <tr>
+                        <td>Current Version</td>
+                        <td>Python 3.13</td>
+                    </tr>
+                    <tr>
+                        <td>Paradigms</td>
+                        <td>Object-Oriented, Procedural, Functional</td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td><a href="https://www.python.org">https://www.python.org</a></td>
+                    </tr>
+                </table>
+            </div>
+        <div class="divider"></div></section>
+        
+        <section class="main-section" id="installation">
+            <header><h1>Installation</h1></header>
+            <ol>
+                <li id="check_python_installed_or_not">
+                    <h2>Check if Python is Already Installed</h2>
+                    <p>Before installing, check if Python is already installed on your system.</p>
+                    <ol class="innerroman">
+                        <li>Open your terminal or command prompt.</li>
+                        <li>Type the following command and press Enter:
+                            <code class="sample blocks">python --version</code>
+                            or
+                            <code class="sample blocks">python3 --version</code>
+                        </li>
+                        <li>If Python is installed, it will display the version number (e.g., Python 3.10.6).</li>
+                    </ol>
+                </li>
+                <li id="download_python">
+                    <h2>Download Python</h2>
+                    <ol class="innerroman">
+                        <li><p>Visit the official Python website: <a href="https://www.python.org.">https://www.python.org.</a></p></li>
+                        <li>Click on the Downloads section. 
+                            <ul><li>The website will automatically recommend the latest version for your operating system (Windows, macOS, Linux).</li></ul>
+                        </li>
+                    </ol>
+                </li>
+                <li id="install_python">
+                    <h2>Install Python on Your System</h2>
+                    <div class="windows">
+                        <h3>For Windows</h3>
+                        <ol class="innerroman">
+                            <li>Download the Python installer (.exe file) from the Python website.</li>
+                            <li>Run the installer.</li>
+                            <li>On the installation screen, check the box that says:
+                                <code class="sample blocks">Add Python to PATH</code>
+                                <img src="./images/path.jpg" alt="add_python_to_path">
+                            </li>
+                            <li>Select Install Now for a quick setup or choose Customize Installation for advanced options.</li>
+                            <li>After installation, verify Python by typing python --version in the command prompt.</li>
+                        </ol>
+
+                    </div>
+                    <div class="mac">
+                        <h3>For macOS</h3>
+                        <ol class="innerroman">
+                            <li>Download the macOS installer (.pkg file) from the Python website.</li>
+                            <li>Run the installer and follow the on-screen instructions.</li>
+                            <li>After installation, open the terminal and type:
+                                <code class="sample blocks">python3 --version</code>
+                            </li>
+                            <li>If not already installed, consider using Homebrew:
+                                <ul>
+                                    <li class="indent">Install Homebrew (if not already installed):
+                                        <code class="sample blocks newdescription">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>
+                                    </li>
+                                    <li class="indent">Install Python using Homebrew:
+                                        <code class="sample blocks newdescription">brew install python</code>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="linux">
+                        <h3>For Linux</h3>
+                        <ol class="innerroman">
+                            <li>Open the terminal.</li>
+                            <li>Update the package list:
+                                <code class="sample blocks">sudo apt update</code>
+                            </li>
+                            <li>Install Python:
+                                <code class="sample blocks">sudo apt install python3</code>
+                            </li>
+                            <li>Verify the installation:
+                                <code class="sample blocks">python3 --version</code>
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+                <li id="install_pip">
+                    <h2>Install pip (Python Package Manager)</h2>
+                    <p>pip is included with modern versions of Python. Verify its installation:
+                        <code class="sample blocks">pip --version</code>
+                    </p>
+                    <p>If not installed, use the following commands:</p>
+                    <ul class="innerunorder">
+                        <li><p>Windows/Mac</p>
+                            <code class="sample blocks">python -m ensurepip --upgrade</code>
+                        </li>
+                        <li>Linux
+                            <code class="sample blocks">sudo apt install python3-pip</code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="set_virtual_env">
+                    <h2>Set Up a Virtual Environment (Optional)</h2>
+                    <p>Creating a virtual environment isolates project dependencies.</p>
+                    <ol class="innerroman">
+                        <li>Create a virtual environment:
+                            <code class="sample blocks">python -m venv myenv</code>
+                        </li>
+                        <li>Activate the virtual environment:
+                            <ul>
+                                <li class="indent">Windows:
+                                    <code class="sample blocks">myenv\Scripts\activate</code>
+                                </li>
+                                <li class="indent">macOS/linux: 
+                                    <code class="sample blocks">source myenv/bin/activate</code>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>To deactivate the virtual environment:
+                            <code class="sample blocks">deactivate</code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="install_ide">
+                    <h2>Install an IDE or Code Editor</h2>
+                    <p>Choose a code editor for writing Python programs.</p>
+                    <ul class="innerunorder">
+                        <p class="nomargin">Recommended Options:</p>
+                        <li><p><span class="titledoc">VS Code:</span> <span class="description">Lightweight and extensible.</span></p><a class="indent" href="https://code.visualstudio.com/">Download VS Code</a></li>
+                        <li><p><span class="titledoc">PyCharm:</span> <span class="description">Full-featured IDE for Python</span></p><a class="indent" href="https://www.jetbrains.com/pycharm/">Download PyCharm</a></li>
+                        <li><p><span class="titledoc">Jupyter Notebook:</span> <span class="description">Ideal for data analysis and visualization.</span></p><p class="description">Install using pip</p><code class="sample extraindent blocks">pip install notebook</code></li>
+                    </ul>
+                </li>
+                <li id="test_installation">
+                    <h2>Test Your Installation</h2>
+                    <ul class="innerunorder">
+                        <li>Open a terminal or command prompt.</li>
+                        <li>Run the Python interpreter:
+                            <code class="sample blocks">python</code>
+                        </li>
+                        <li>Type a simple command to test:
+                            <code class="sample blocks">print("Python is successfully installed!")</code>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <h2 id="common_installation_issues">Common Installation Issues</h2>
+            <ol class="innerroman">
+                <li><h4>Python Not Recognized</h4>
+                    <ul class="innerunorder">
+                        <li>Ensure you added Python to your system's PATH during installation.</li>
+                        <li>On Windows, manually add the Python directory to PATH:
+                            <ul class="doubleinner">
+                                <li>Go to Control Panel > System > Advanced System Settings > Environment Variables.</li>
+                                <li>Edit the PATH variable to include the path to the Python executable.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><h4>Missing pip</h4>
+                    <p>Reinstall pip using:
+                        <code class="sample blocks">python -m ensurepip --upgrade</code>
+                    </p>
+                </li>
+            </ol>
+        <div class="divider"></div></section>
+        
+        <section class="main-section" id="python_basics">
+            <header><h1>Python Basics</h1></header>
+            <p class="indent">Python is a versatile, high-level programming language known for its simplicity and readability. It is widely used for web development, data analysis, artificial intelligence, scientific computing, and more. This section introduces the core concepts of Python, including its syntax, data types, control flow, and functions, laying a strong foundation for building complex applications.
+            </p>
+            <p class="indent">Explore interactive examples and exercises to get hands-on experience with Python's essential features.</p>
+            <ol>
+                <li id="python_syntax">
+                    <h2>Python Syntax</h2>
+                    <p>Python is known for its simple and readable syntax. Indentation is used to define blocks of code instead of braces { }.</p>
+                    <p class="example">Example: Hello World</p>
+                    <code class="sample blocks">print("Hello, World!")</code>
+                    <p class="explanation">Explanation: The print() function outputs text to the console.</p>
+                    <p class="note">Note: Python uses indentation to define code blocks.</p>
+                </li>
+                <li id="variable_and_data_types">
+                    <h2>Variables and Data Types</h2>
+                    <p>Python is dynamically typed, so you don’t need to declare a variable type explicitly.</p>
+                    <p class="example">Declaring Variables</p>
+                    <code class="sample blocks"><pre>
+x = 5       # Integer
+y = 3.14    # Float
+name = "Alice"  # String
+is_active = True  # Boolean
+                    </pre></code>
+                    <p class="example">Multiple Assignments</p>
+                    <code class="sample blocks">a, b, c = 1, 2, 3</code>
+                    <p class="example">Data Type Checking</p>
+                    <code class="sample blocks"><pre>print(type(x))  # Output: class 'int'</pre></code>
+                    <p class="example">List of Common Data Types</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Data Type</th>
+                                <th>Description</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Integer</td>
+                                <td>Whole numbers</td>
+                                <td>x = 5</td>
+                            </tr>
+                            <tr>
+                                <td>Float</td>
+                                <td>Decimal numbers</td>
+                                <td>y = 3.14</td>
+                            </tr>
+                            <tr>
+                                <td>String</td>
+                                <td>Sequence of characters</td>
+                                <td>text = "Hello"</td>
+                            </tr>
+                            <tr>
+                                <td>Boolean</td>
+                                <td>True or False</td>
+                                <td>flag = True</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li id="basic_io">
+                    <h2>Basic Input and Output</h2>
+                    <p>Interactive programs use input/output functions.</p>
+                    <p>Getting User Input</p>
+                    <code class="sample blocks">name = input("Enter your name: ")</code>
+                    <p>Formatted Strings</p>
+                    <code class="sample blocks">print(f"Hello, {name}! Welcome to Python!")</code>
+                </li>
+                <li id="basic_data_types">
+                    <h2>Basic Data Types</h2>
+                    <ul>
+                        <li>
+                            <h4>Numbers</h4>
+                            <p class="indent">Integer (int), Floating-point (float), Complex (complex).</p>
+                            <code class="sample blocks">
+                                <pre>
+number = 895 #integer
+print(number) #output: 895
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>Strings</h4>
+                            <code class="sample blocks">
+                                <pre>
+greeting = "Hello, Python!"
+print(greeting.upper())  # Output: HELLO, PYTHON
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>Lists</h4>
+                            <p class="indent">A list is an ordered, mutable collection.</p>
+                            <code class="sample blocks"><pre>
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")  # Add an item
+print(fruits[0])  # Access by index
+                            </pre></code>
+                        </li>
+                        <li>
+                            <h4>Tuples</h4>
+                            <p class="indent">A tuple is an ordered, immutable collection.</p>
+                            <code class="sample blocks">
+                                <pre>
+my_tuple = (10, 20, 30)
+print(my_tuple[0])  # Output: 1
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>Dictionaries</h4>
+                            <p class="indent">Dictionaries store data as key-value pairs.</p>
+                            <code class="sample blocks">
+                                <pre>
+person = {"name": "Alice", "age": 25}
+person["city"] = "New York"  # Add a new key-value pair
+print(person["name"])  # Output: Alice
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="operators">
+                    <h2>Operators</h2>
+                    <h3>Arithmetic Operators</h3>
+                    <code class="sample blocks">
+                        <pre>
+a, b = 10, 3
+print(a + b)  # Addition
+print(a - b)  # Subtraction
+print(a * b)  # Multiplication
+print(a / b)  # Division
+print(a % b)  # Modulus
+# &many more...
+                        </pre>
+                    </code>
+                    <h3>Comparison Operators</h3>
+                    <code class="sample blocks">
+                        <pre>
+x, y = 5, 10
+print(x > y)  # Greater than
+print(x == y)  # Equal to 
+# &many more...
+                        </pre>
+                    </code>
+                </li>
+                <li id="control_flow">
+                    <h2>Control Flow</h2>
+                    <h3>Conditional Statements</h3>
+                    <code class="sample blocks">
+                        <pre>
+x = 10
+if x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is less than 5")
+                        </pre>
+                    </code>
+                    <h3>Loops</h3>
+                    <ul>
+                        <li>
+                            <p class="indent">For Loops</p>
+                            <code class="sample blocks extraindent">
+                                <pre>
+for i in range(5):
+    print(i)
+                                </pre>
+                            </code>
+                        </li>
+
+                        <li>
+                            <p class="indent">While Loops</p>
+                            <code class="sample blocks extraindent">
+                                <pre>
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="python_comments">
+                    <h2>Python Comments</h2>
+                    <p>Comments make your code easier to understand.</p>
+                    <code class="sample blocks">
+                        <pre>
+# This is a single-line comment
+
+"""
+This is a multi-line comment
+or docstring.
+"""
+                        </pre>
+                    </code>
+                </li>
+            </ol>
+        <div class="divider"></div></section>
+        
+        <section class="main-section" id="intermediate_python_topics">
+            <header><h1>Intermediate Python Topics</h1></header>
+            <p class="indent">Intermediate Python topics build upon the fundamentals to help you write more efficient, modular, and professional-grade code. This section dives into advanced concepts like functions, object-oriented programming (OOP), and the use of Python’s vast library ecosystem. By mastering these topics, you’ll be able to handle complex programming tasks, design reusable components, and leverage Python’s capabilities for a wide range of applications, from data analysis to software development</p>
+            <ol>
+                <li id="functions">
+                    <h2>Functions</h2>
+                    <p>Functions are the building blocks of reusable code. They allow developers to encapsulate logic and make their code modular.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h3>User-Defined Functions</h3>
+                            <p>Functions can accept inputs (parameters), perform operations, and return outputs.</p>
+                            <p class="example">Example: Function to calculate the factorial of a number:</p>
+                            <code class="sample blocks">
+                                <pre>
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+print(factorial(5))  # Output: 12
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h3>Function Arguments</h3>
+                            <p>Python functions offer various ways to pass arguments, making them flexible.</p>
+                            <ul class="innerunorder">
+                                <li>
+                                    <p><span class="titledoc">Default Arguments:</span><span class="description"> Useful for providing default behavior.</span></p>
+                                    <code class="sample blocks extraindent">
+                                        <pre>
+def greet(name="Guest"):
+    return f"Welcome, {name}!"
+
+print(greet())         # Welcome, Guest!
+print(greet("Alice"))  # Welcome, Alice!
+                                        </pre>
+                                    </code>
+                                </li>
+                                <li>
+                                    <p><span class="titledoc">Keyword Arguments:</span><span class="description"> Makes function calls more readable.</span></p>
+                                    <code class="sample blocks extraindent">
+                                        <pre>
+def introduce(name, age, city):
+    return f"{name} is {age} years old and lives in {city}."
+                                        
+print(introduce(age=30, city="New York", name="John"))  
+                                        </pre>
+                                    </code>
+                                </li>
+                                <li>
+                                    <p><span class="titledoc">Arbitrary Arguments:</span><span class="description"> Handle unknown or varying numbers of arguments using *args (positional) and **kwargs (keyword).</span></p>
+                                    <code class="sample blocks extraindent">
+                                        <pre>
+def describe_person(name, *hobbies, **details):
+    print(f"{name} enjoys {', '.join(hobbies)}.")
+    for key, value in details.items():
+        print(f"{key}: {value}")
+
+describe_person("Alice", "reading", "cycling", age=25, city="London")
+                                        </pre>
+                                    </code>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Lambda Functions</h3>
+                            <p>Lambda functions, also known as anonymous functions, are used for quick, one-line expressions.</p>
+                            <p class="example">Example: Filtering even numbers from a list:</p>
+                            <code class="sample blocks">
+                                <pre>
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # Output: [2, 4, 6]
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h3>Scope and Closures</h3>
+                            <p>Python variables have a defined scope, determining where they can be accessed.</p>
+                            <ul class="innerunorder">
+                                <li>
+                                    <p><span class="titledoc">Local Scope:</span><span class="description"> Variables defined inside a function.</span></p>
+                                </li>
+                                <li>
+                                    <p><span class="titledoc">Global Scope:</span><span class="description"> Variables defined outside any function.</span></p>
+                                </li>
+                                <li>
+                                    <p><span class="titledoc">Nonlocal Keyword:</span><span class="description"> Modifies a variable from an enclosing scope.</span></p>
+                                </li>
+                            </ul>
+                            <p class="example extraindent">Example: Using closures for advanced behavior:</p>
+                            <code class="sample blocks extraindent">
+                                <pre>
+def multiplier(factor):
+    def multiply(number):
+        return number * factor
+    return multiply
+
+times_three = multiplier(3)
+print(times_three(10))  # Output: 3
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="object_oriented_programming">
+                    <h2>Object-Oriented Programming (OOP)</h2>
+                    <p>Object-Oriented Programming in Python allows developers to model real-world entities using classes and objects.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h3>Classes and Objects</h3>
+                            <p>A class is a blueprint for creating objects, and an object is an instance of a class.</p>
+                            <p class="example">Example: Modeling a library system:</p>
+                            <code class="sample blocks">
+                                <pre>
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def describe(self):
+        return f"{self.title} by {self.author}"
+
+# Create objects
+book1 = Book("1984", "George Orwell")
+book2 = Book("To Kill a Mockingbird", "Harper Lee")
+
+print(book1.describe())
+print(book2.describe())
+                                </pre>
+                            </code>
+
+                        </li>
+                        <li>
+                            <h3>Inheritance</h3>
+                            <p>Inheritance allows one class to derive properties and methods from another.</p>
+                            <p class="example">Example: Extending a base class:</p>
+                            <code class="sample blocks">
+                                <pre>
+class Vehicle:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def start(self):
+        return f"{self.brand} is starting."
+
+class Car(Vehicle):
+    def drive(self):
+        return f"{self.brand} is driving."
+
+my_car = Car("Tesla")
+print(my_car.start())  # Tesla is starting.
+print(my_car.drive())  # Tesla is driving
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h3>Encapsulation</h3>
+                            <p>Control access to class members using:</p>
+                            <ul class="innerunorder">
+                                <li>_ for protected members.</li>
+                                <li>__ for private members.</li>
+                            </ul>
+                            <p class="example">Example: Bank account simulation:</p>
+                            <code class="sample blocks">
+                                <pre>
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+
+    def deposit(self, amount):
+        self.__balance += amount
+
+    def get_balance(self):
+        return self.__balance
+
+account = BankAccount(1000)
+account.deposit(500)
+print(account.get_balance())  # 150
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h3>Polymorphism</h3>
+                            <p>Objects of different classes can share method names and exhibit different behaviors.</p>
+                            <p class="example">Example: Unified interface for animals:</p>
+                            <code class="sample blocks">
+                                <pre>
+class Dog:
+    def sound(self):
+        return "Woof!"
+
+class Cat:
+    def sound(self):
+        return "Meow!"
+
+def animal_sound(animal):
+    print(animal.sound())
+
+animal_sound(Dog())  # Woof!
+animal_sound(Cat())  # Meow
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="modules_and_libraries">
+                    <h2>Modules and Libraries</h2>
+                    <p>Python's extensive library ecosystem simplifies development.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h3>Built-in Modules</h3>
+                            <ul class="doubleinner">
+                                <li>
+                                    <p><span class="titledoc">Math Module:</span><span class="description"> Advanced mathematical operations.</span></p>
+                                    <code class="sample blocks extraindent">
+                                        <pre>
+import math
+
+print(math.factorial(5))  # 120
+                                        </pre>
+                                    </code>
+                                </li>
+                                <li>
+                                    <p><span class="titledoc">Random Module:</span><span class="description"> Generate random values.</span></p>
+                                    <code class="sample blocks extraindent">
+                                        <pre>
+import random
+
+dice_roll = random.randint(1, 6)
+print(dice_roll)
+                                        </pre>
+                                    </code>
+                                </li>
+                                <li><span class="titledoc">& many more...</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Creating Custom Modules</h3>
+                            <p>Save Python code in .py files and import it:</p>
+                            <code class="sample blocks">
+                                <pre>
+# File: mymodule.py
+def add(a, b):
+    return a + b
+
+# Main script
+import mymodule
+
+print(mymodule.add(10, 20))  # Output: 3
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h3>Popular Third-Party Libraries</h3>
+                            <ul class="doubleinner">
+                                <li>Pandas: Data manipulation.</li>
+                                <li>NumPy: Numerical computing.</li>
+                                <li>Matplotlib: Data visualization.</li>
+                                <li>& many more...</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        <div class="divider"></div></section>
+        
+        <section class="main-section" id="advanced_python_topics">
+            <header><h1>Advanced Python Topics</h1></header>
+            <p class="indent">Python is not just a beginner-friendly programming language but also a powerful tool for advanced developers. This section dives deep into the sophisticated features and concepts of Python, empowering you to write efficient, scalable, and robust code.</p>
+            <p class="indent">Explore the intricacies of file handling, leverage the power of decorators and generators, master asynchronous programming with asyncio, and unlock the secrets of metaclasses and design patterns. These advanced topics will help you push the boundaries of what’s possible with Python, making your code not only functional but also elegant and optimized.</p>
+            <p class="indent">Whether you're building high-performance applications, automating tasks, or exploring cutting-edge technologies, these advanced Python concepts will elevate your programming skills to the next level.</p>
+            <ol >
+                <li id="file_handling">
+                    <h2>File Handling</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Reading and Writing Files</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+# Writing to a file
+with open('example.txt', 'w') as file:
+    file.write("Hello, World!")
+
+# Reading from a file
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>File Modes</h4></p>
+                            <ul class="doubleinner">
+                                <li>'r': Read (default).</li>
+                                <li>'w': Write (overwrites).</li>
+                                <li>'a': Append.</li>
+                                <li>'rb'/'wb': Binary read/write.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><h4>Handling Large Files with Generators</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+def read_large_file(file_name):
+    with open(file_name, 'r') as file:
+        for line in file:
+            yield line
+
+for line in read_large_file('large_file.txt'):
+    print(line.strip())
+                            
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="exception_handling">
+                    <h2>Exception Handling</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Basics</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print("Error:", e)
+finally:
+    print("Execution complete.")
+                            
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Custom Exceptions</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+class CustomError(Exception):
+    def __init__(self, message):
+        self.message = message
+
+try:
+    raise CustomError("This is a custom error!")
+except CustomError as e:
+    print(e)
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="decorators">
+                    <h2>Decorators</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Basic Decorator</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before function execution")
+        result = func(*args, **kwargs)
+        print("After function execution")
+        return result
+    return wrapper
+
+@decorator
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Python")
+                            
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Decorator with Arguments</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+def repeat(n):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for _ in range(n):
+                func(*args, **kwargs)
+        return wrapper
+    return decorator
+
+@repeat(3)
+def say_hello():
+    print("Hello!")
+
+say_hello()
+                            
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="generators">
+                    <h2>Generators</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Yield Basics</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+def generate_numbers(n):
+    for i in range(n):
+        yield i
+
+for number in generate_numbers(5):
+    print(number)
+                            
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Generator Expressions</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+squares = (x ** 2 for x in range(10))
+print(next(squares))
+print(next(squares))
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="context_managers">
+                    <h2>Context Managers</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Using with Statement</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+class MyResource:
+    def __enter__(self):
+        print("Acquiring resource")
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        print("Releasing resource")
+
+with MyResource() as resource:
+    print("Using resource")
+                            
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Creating Custom Context Managers</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+from contextlib import contextmanager
+
+@contextmanager
+def open_file(file_name, mode):
+    file = open(file_name, mode)
+    try:
+        yield file
+    finally:
+        file.close()
+
+with open_file('example.txt', 'w') as file:
+    file.write("Hello, Context Manager!")
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="metaclasses">
+                    <h2>Metaclasses</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>What are Metaclasses?</h4></p>
+                            <p class="indent">Metaclasses define the behavior of classes.</p>
+                            <code class="sample blocks extraindent">
+                                <pre>
+class MyMeta(type):
+    def __new__(cls, name, bases, dct):
+        print(f"Creating class {name}")
+        return super().__new__(cls, name, bases, dct)
+
+class MyClass(metaclass=MyMeta):
+    pass
+                            
+                                </pre>
+                            </code>
+                        </li>
+                       
+                    </ul>
+                </li>
+                <li id="coroutines_and_asyncio">
+                    <h2>Coroutines and Asyncio</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Coroutines</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+async def greet():
+    print("Hello")
+    await asyncio.sleep(1)
+    print("World")
+
+asyncio.run(greet())
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Asynchronous Programming with asyncio</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+import asyncio
+
+async def task1():
+    await asyncio.sleep(1)
+    print("Task 1 completed")
+
+async def task2():
+    await asyncio.sleep(2)
+    print("Task 2 completed")
+
+async def main():
+    await asyncio.gather(task1(), task2())
+
+asyncio.run(main())
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="python_memory_management">
+                    <h2>Python Memory Management</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Garbage Collection</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+import gc
+
+print(gc.isenabled())
+gc.collect()
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Reference Counting</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+import sys
+
+a = []
+print(sys.getrefcount(a))
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="python_design_patterns">
+                    <h2>Python Design Patterns</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Singleton Pattern</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+class Singleton:
+    _instance = None
+
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super().__new__(cls, *args, **kwargs)
+        return cls._instance
+
+obj1 = Singleton()
+obj2 = Singleton()
+print(obj1 is obj2)  # True
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>Observer Pattern</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+class Subject:
+    def __init__(self):
+        self._observers = []
+
+    def register(self, observer):
+        self._observers.append(observer)
+
+    def notify_all(self, message):
+        for observer in self._observers:
+            observer.notify(message)
+
+class Observer:
+    def notify(self, message):
+        print(f"Received message: {message}")
+
+subject = Subject()
+observer = Observer()
+subject.register(observer)
+subject.notify_all("Hello Observers!")
+                                </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+                <li id="python_tips_and_tricks">
+                    <h2>Python Tips and Tricks</h2>
+                    <ul class="innerunorder">
+                        <li>
+                            <p><h4>Unpacking</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+a, b, *rest = [1, 2, 3, 4, 5]
+print(a, b, rest)
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>List Comprehension</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+squares = [x ** 2 for x in range(10)]
+print(squares)
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <p><h4>F-Strings</h4></p>
+                            <code class="sample blocks">
+                                <pre>
+name = "Python"
+print(f"Hello, {name}!")
+                                    </pre>
+                            </code>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        <div class="divider"></div></section>
+        
+        <section class="main-section" id="popular_libraries">
+            <header><h1>Popular Libraries</h1></header>
+            <p class="indent">Python's versatility lies in its extensive ecosystem of libraries that cater to a wide range of use cases. Whether you're building dynamic web applications, analyzing data, creating machine learning models, or automating repetitive tasks, Python has a library for you. This section introduces some of the most widely used libraries in web development, data analysis, machine learning, data visualization, automation, and more, with examples to help you get started quickly. Explore these libraries to unlock the full potential of Python for your projects!</p>
+            <ol>
+                <li id="web_development">
+                    <h3>Web Development</h3>
+                    <p>Python is widely used for creating websites and web applications.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Flask</h4>
+                            <p>A lightweight and minimalist framework for web development.</p>
+                            <p>Ideal for small projects and REST APIs.</p>
+                            <p class="example">Example: Creating a simple Flask app</p>
+                            <code class="sample blocks">
+                                <pre>
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Welcome to Flask!"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>Django</h4>
+                            <p>A high-level framework for robust and scalable web applications.</p>
+                            <p>Comes with built-in tools for ORM, admin panels, and authentication.</p>
+                            <p class="example">Example: Django Hello World</p>
+                            <code class="sample blocks">
+                                <pre>
+# Install Django and create a new project
+pip install django
+django-admin startproject myproject
+                                </pre>
+                            </code>
+                            <p class="extra">Add a simple view in views.py:</p>
+                            <code class="sample blocks">
+                                <pre>
+from django.http import HttpResponse
+
+def hello_world(request):
+    return HttpResponse("Hello, Django!")
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="data_analysis">
+                    <h3>Data Analysis</h3>
+                    <p>Python’s libraries for analyzing and processing large datasets</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Pandas</h4>
+                            <p>Provides data structures like DataFrames and Series for handling structured data.</p>
+                            <p class="example">Example: Reading and manipulating data</p>
+                            <code class="sample blocks">
+                                <pre>
+import pandas as pd
+
+data = {'Name': ['Alice', 'Bob'], 'Age': [25, 30]}
+df = pd.DataFrame(data)
+
+print(df)
+print(df['Name'])
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>NumPy</h4>
+                            <p>Optimized for numerical computations and arrays.</p>
+                            <p>Useful for matrix operations and mathematical functions</p>
+                            <p class="example">Example: Basic array operations</p>
+                            <code class="sample blocks">
+                                <pre>
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+print(arr + 2)
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="machine_learning">
+                    <h3>Machine Learning</h3>
+                    <p>For building and deploying machine learning models.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Scikit-learn</h4>
+                            <p>A comprehensive library for machine learning algorithms and tools.</p>
+                            <p class="example">Example: Linear Regression</p>
+                            <code class="sample blocks">
+                                <pre>
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+X = np.array([[1], [2], [3]])
+y = np.array([2, 4, 6])
+
+model = LinearRegression()
+model.fit(X, y)
+
+print(model.predict([[4]]))  # Output: [8]
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>TensorFlow</h4>
+                            <p>A deep learning framework by Google for neural networks and AI models.</p>
+                            <p class="example">Example: Simple Neural Network</p>
+                            <code class="sample blocks">
+                                <pre>
+import tensorflow as tf
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(10, activation='relu'),
+    tf.keras.layers.Dense(1)
+])
+
+model.compile(optimizer='adam', loss='mse')
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>PyTorch</h4>
+                            <p>A popular deep learning library by Facebook, known for dynamic computation graphs.</p>
+                            <p class="example">Example: Linear Regression</p>
+                            <code class="sample blocks">
+                                <pre>
+import torch
+
+X = torch.tensor([[1.0], [2.0], [3.0]])
+y = torch.tensor([[2.0], [4.0], [6.0]])
+
+model = torch.nn.Linear(1, 1)
+loss_fn = torch.nn.MSELoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+
+for epoch in range(100):
+    predictions = model(X)
+    loss = loss_fn(predictions, y)
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()              
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="data_visualization">
+                    <h3>Data Visualization</h3>
+                    <p>For creating charts, graphs, and other visual representations.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Matplotlib</h4>
+                            <p>A foundational library for plotting data.</p>
+                            <p class="example">Example: Plotting a line graph</p>
+                            <code class="sample blocks">
+                                <pre>
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+
+plt.plot(x, y)
+plt.title("Line Graph")
+plt.show()
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>Seaborn</h4>
+                            <p>Built on top of Matplotlib for statistical data visualization.</p>
+                            <p class="example">Example: Creating a scatter plot</p>
+                            <code class="sample blocks">
+                                <pre>
+import seaborn as sns
+import pandas as pd
+
+df = pd.DataFrame({'x': [1, 2, 3], 'y': [5, 10, 15]})
+sns.scatterplot(x='x', y='y', data=df)
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="automation">
+                    <h3>Automation</h3>
+                    <p>Libraries for automating repetitive tasks.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Selenium</h4>
+                            <p>Used for browser automation.</p>
+                            <p class="example">Example: Automating Google Search</p>
+                            <code class="sample blocks">
+                                <pre>
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get("https://www.google.com")
+
+search_box = driver.find_element("name", "q")
+search_box.send_keys("Python")
+search_box.submit()
+                                </pre>
+                            </code>
+                        </li>
+                        <li>
+                            <h4>PyAutoGUI</h4>
+                            <p>Automates GUI interactions like mouse movements and keyboard inputs.</p>
+                            <p class="example">Example: Moving the mouse</p>
+                            <code class="sample blocks">
+                                <pre>
+import pyautogui
+
+pyautogui.moveTo(100, 100, duration=1)
+pyautogui.click()
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="API_integration">
+                    <h3>API Integration</h3>
+                    <p>Libraries to interact with APIs and handle HTTP requests.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Requests</h4>
+                            <p>A simple and powerful library for HTTP requests.</p>
+                            <p class="example">Example: Fetching data from an API</p>
+                            <code class="sample blocks">
+                                <pre>
+import requests
+
+response = requests.get("https://api.github.com")
+print(response.json())
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="Scientific_computing">
+                    <h3>Scientific Computing</h3>
+                    <p>Python libraries for advanced computations.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>SciPy</h4>
+                            <p>Extends NumPy with tools for optimization, integration, and signal processing.</p>
+                            <p class="example">Example: Solving a system of equations</p>
+                            <code class="sample blocks">
+                                <pre>
+from scipy.optimize import linprog
+
+result = linprog([1, 2], A_ub=[[1, 1]], b_ub=[1])
+print(result)
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+                <li id="Game_evelopment">
+                    <h3>Game Development</h3>
+                    <p>For building games and interactive applications.</p>
+                    <ol class="innerroman">
+                        <li>
+                            <h4>Pygame</h4>
+                            <p>A library for game development.</p>
+                            <p class="example">Example: Basic Pygame setup</p>
+                            <code class="sample blocks">
+                                <pre>
+import pygame
+
+pygame.init()
+screen = pygame.display.set_mode((400, 300))
+pygame.display.set_caption("Hello, Pygame!")
+
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+pygame.quit()
+                                </pre>
+                            </code>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        <div class="divider"></div></section>
+       
+        <p class="otherlink">For more infromation read the <a href="https://docs.python.org/3/">official documentation</a>.</p>
+        
+    </main>
+</body>
+</html>
