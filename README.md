@@ -50,7 +50,7 @@ project/
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rahulkumar060906/python_documention
 2. Open index.html in your browser to view the webpage.
 ## Contributing
 
